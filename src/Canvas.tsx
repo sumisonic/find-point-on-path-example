@@ -1,7 +1,7 @@
 import { Box, BoxProps, Center } from '@chakra-ui/react'
 import * as React from 'react'
 
-import { ExtendedPoint, Point, getLinearPathParams, getSplinePathParams } from './find-point-on-path'
+import { ExtendedPoint, Point, getLinearPathParams, getSplinePathParams } from '@sumisonic/find-point-on-path'
 import { PathType } from './PathType'
 
 // angleプロパティを持つかどうかをチェックする型ガード

@@ -1,16 +1,16 @@
 import { Box, VStack } from '@chakra-ui/react'
-import { match } from 'ts-pattern'
-import * as O from 'fp-ts/Option'
-import React from 'react'
-
-import { PathType } from './PathType'
 import {
   Point,
   createFindPointOnLinearPath,
   createFindPointOnLinearPathWithAngle,
   createFindPointOnSplinePath,
   createFindPointOnSplinePathWithAngle,
-} from './find-point-on-path'
+} from '@sumisonic/find-point-on-path'
+import { match } from 'ts-pattern'
+import * as O from 'fp-ts/Option'
+import React from 'react'
+
+import { PathType } from './PathType'
 import Canvas from './Canvas'
 import GenerateButton from './GenerateButton'
 import RadioButton from './RadioButton'
